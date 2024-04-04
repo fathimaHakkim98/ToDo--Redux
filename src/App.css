@@ -1,0 +1,80 @@
+
+
+
+* {
+  font-family: "Acme", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8758ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+h1 {
+  margin-top: 2rem ;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+  align-items: center;
+}
+
+.todoinput{
+  outline: none;
+  background: none;
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+
+}
+
+.todoinput::placeholder{
+  color: rgb(217, 217, 241);
+}
+
+.addtodobtn{
+  background-color: black;
+  padding: 10px 20px;
+  border: transparent;
+  border-radius: 5px;
+  color: white;
+}
+
+.box{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.dltbtn{
+  background-color: rgb(111, 111, 238);
+  padding: 10px 20px;
+  border: transparent;
+  border-radius: 5px;
+  color: white;
+}
+
+.dltbtn:hover{
+  background-color: rgb(143, 146, 79);
+  padding: 10px 20px;
+  border: transparent;
+  border-radius: 5px;
+  color: darkred;
+}
+.box>input{
+  padding: 2px;
+  background-color: white;
+}
